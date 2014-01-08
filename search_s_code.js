@@ -2,7 +2,7 @@
 Copyright 1997-2006 Omniture, Inc. More info available at
 http://www.omniture.com */
 /* Specify the Report Suite ID(s) to track here */
-var s_account="byuibyuiedu"
+var s_account="byuibyuiedu,byuisearch";
 var s=s_gi(s_account)
 /************************** CONFIG SECTION **************************/
 /* You may add or alter any code config here. */
