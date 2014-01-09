@@ -39,12 +39,12 @@ function s_doPlugins(s) {
 	/* Add calls to plugins here */
 	
 	/* Plugin Example: getQueryParam v2.3 */
-	s.campaign=s.getQueryParam('cid')
+	s.campaign=s.Util.getQueryParam('cid')
 	
 
 	/* Plugin Example: pageName v2.0 */
-	if(!s.pageType && !s.pageName)
-		s.pageName=s.getPageName();
+//	if(!s.pageType && !s.pageName)
+//		s.pageName=s.getPageName();
 
 }
 s.doPlugins=s_doPlugins
