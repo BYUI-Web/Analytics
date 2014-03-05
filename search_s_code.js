@@ -8,35 +8,34 @@ var s.account="byuibyuiedu,byuisearch";
 /************************** CONFIG SECTION **************************/
 /* You may add or alter any code config here. */
 /* E-commerce Config */
-s.currencyCode = "USD"
+s.currencyCode="USD"
 /* Link Tracking Config */
-s.trackDownloadLinks = true
-s.trackExternalLinks = true
-s.trackInlineStats = true
-s.linkDownloadFileTypes = "exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls"
-s.linkInternalFilters = "javascript:,byui.edu"
-s.linkLeaveQueryString = false
-s.linkTrackVars = "None"
-s.linkTrackEvents = "None"
+s.trackDownloadLinks=true
+s.trackExternalLinks=true
+s.trackInlineStats=true
+s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls"
+s.linkInternalFilters="javascript:,byui.edu"
+s.linkLeaveQueryString=false
+s.linkTrackVars="None"
+s.linkTrackEvents="None"
 
 /* WARNING: Changing the visitor namespace will cause drastic changes
 to how your visitor data is collected.  Changes should only be made
 when instructed to do so by your account manager.*/
-s.visitorNamespace = "byuidaho"
+s.visitorNamespace="byuidaho"
 
 
 
 /* Page Name Plugin Config */
-s.siteID = "" // leftmost value in pagename
-s.defaultPage = "" // filename to add when none exists
-s.queryVarsList = "" // query parameters to keep
-s.pathExcludeDelim = ";" // portion of the path to exclude
-s.pathConcatDelim = "" // page name component separator
-s.pathExcludeList = "" // elements to exclude from the path
+s.siteID=""            // leftmost value in pagename
+s.defaultPage=""       // filename to add when none exists
+s.queryVarsList=""     // query parameters to keep
+s.pathExcludeDelim=";" // portion of the path to exclude
+s.pathConcatDelim=""   // page name component separator
+s.pathExcludeList=""   // elements to exclude from the path
 
 /* Plugin Config */
-s.usePlugins = true
-
+s.usePlugins=true
 function s_doPlugins(s) {
 
 	/* Add calls to plugins here */
@@ -44,14 +43,16 @@ function s_doPlugins(s) {
 	/* Plugin Example: getQueryParam v2.3 */
 	s.campaign=s.Util.getQueryParam('cid')
 	
-    /* Plugin Example: pageName v2.0 */
-    if (!s.pageType && !s.pageName)
-        s.pageName = s.getPageName();
+
+	/* Plugin Example: pageName v2.0 */
+	if(!s.pageType && !s.pageName)
+		s.pageName=s.getPageName();
 
 }
-s.doPlugins = s_doPlugins
+s.doPlugins=s_doPlugins
 
 /************************** PLUGINS SECTION *************************/
+
 /*
 * Plugin: getPageName v2.0 - parse URL and return
 */
