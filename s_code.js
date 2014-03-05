@@ -40,6 +40,7 @@ function s_doPlugins(s) {
 	
 	/* Plugin Example: getQueryParam v2.3 */
 	s.campaign=s.Util.getQueryParam('cid');
+	
 
 	/* Plugin Example: pageName v2.0 */
 	if(!s.pageType && !s.pageName)
