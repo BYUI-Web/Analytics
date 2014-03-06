@@ -3,7 +3,8 @@ Copyright 1997-2006 Omniture, Inc. More info available at
 http://www.omniture.com */
 /* Specify the Report Suite ID(s) to track here */
 var s = new AppMeasurement();
-var s.account="byuibyuiedu";
+s.account="byuibyuiedu";
+
 /************************** CONFIG SECTION **************************/
 /* You may add or alter any code config here. */
 /* E-commerce Config */
