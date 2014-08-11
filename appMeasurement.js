@@ -3,7 +3,7 @@ s.account="byuibyuiedu, byuiupward"
 
 /******** VISITOR ID SERVICE CONFIG - REQUIRES VisitorAPI.js ********/
 s.visitor=Visitor.getInstance("952602BE532959AD0A490D4C@AdobeOrg")
-
+ 
 /************************** CONFIG SECTION **************************/
 /* You may add or alter any code config here. */
 /* Link Tracking Config */
