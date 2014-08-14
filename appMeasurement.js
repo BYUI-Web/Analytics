@@ -1,5 +1,5 @@
 s=new AppMeasurement()
-s.account="byuibyuiedu, byuiupward"
+s.account="byuiupward"
 
 /******** VISITOR ID SERVICE CONFIG - REQUIRES VisitorAPI.js ********/
 s.visitor=Visitor.getInstance("952602BE532959AD0A490D4C@AdobeOrg")
